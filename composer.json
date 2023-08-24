@@ -1,0 +1,26 @@
+{
+    "name": "vanengers/prestashop-base-module",
+    "description": "A module base for PrestaShop 8.X versions",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.4"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Vanengers\\PrestashopBaseModule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "George van Engers",
+            "email": "vanengers@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts" : {
+        "post-create-project-cmd": [
+            "php run Play"
+        ]
+    }
+}
