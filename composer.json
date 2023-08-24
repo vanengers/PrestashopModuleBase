@@ -18,7 +18,7 @@
     ],
     "scripts" : {
         "post-create-project-cmd": [
-            "Vanengers\\PrestashopBaseModule\\Composer\\CreateProject::postCreateProject"
+            "pretashop-base-module/bin/run Play"
         ]
     }
 }
