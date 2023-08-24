@@ -18,7 +18,7 @@
     ],
     "scripts" : {
         "post-create-project-cmd": [
-            "prestashop-base-module/bin/run Play"
+            "php bin/run Play"
         ]
     }
 }
