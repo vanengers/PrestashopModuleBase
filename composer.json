@@ -20,5 +20,8 @@
         "post-create-project-cmd": [
             "php bin/run Play"
         ]
+    },
+    "config": {
+        "process-timeout": 0
     }
 }
