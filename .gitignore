@@ -1,3 +1,8 @@
 #PHPStorm
 /.idea
+
+#GIT
 /vendor/
+
+#Composer
+config.json

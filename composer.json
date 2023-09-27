@@ -3,7 +3,8 @@
     "description": "A module base for PrestaShop 8.X versions",
     "type": "prestashop-module",
     "require": {
-        "symfony/console": "^5.4"
+        "symfony/console": "^5.4",
+        "vanengers/prestashop-lib-module": "@dev"
     },
     "autoload": {
         "psr-4": {
@@ -16,12 +17,10 @@
             "email": "vanengers@gmail.com"
         }
     ],
-    "scripts" : {
-        "post-create-project-cmd": [
-            "php bin/run Play"
-        ]
-    },
-    "config": {
-        "process-timeout": 0
-    }
+    "repositories": [
+        {
+            "type": "path",
+            "url": "C:\\_GIT\\prestashop-lib-module"
+        }
+    ]
 }
